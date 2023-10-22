@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdnjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <a class="logo"
+          ><img src="images/swiper-logo.svg" width="40px" alt="" />Code</a
+        >
+        <nav class="navbar">
+          <div class="btn">
+            <i class="fas fa-times close-btn"></i>
+          </div>
+          <li class="link">
+            <i class="fa-solid fa-house side"></i><a href="index.html">home</a>
+          </li>
+          <li class="link">
+            <i class="fa-solid fa-user side"></i><a href="about.html">about</a>
+          </li>
+          <li class="link">
+            <i class="fa-solid fa-layer-group side"></i
+            ><a href="index.html#experinces">experince</a>
+          </li>
+          <li class="link">
+            <i class="fa-brands fa-r-project side"></i
+            ><a href="index.html#team">Team</a>
+          </li>
+          <li class="link">
+            <i class="fa-brands fa-r-project side"></i
+            ><a href="about.html#projects">projects</a>
+          </li>
+          <li class="link">
+            <i class="fa-solid fa-envelope side"></i
+            ><a href="index.html#contacts">contacts</a>
+          </li>
+
+          <li>
+            <a id="icon">
+              <i class="fa-regular fa-sun"></i>
+            </a>
+          </li>
+        </nav>
+        <div class="btn">
+          <i class="fas fa-bars menu-btn"></i>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <section class="home" id="home">
+      <div class="container">
+        <figcaption class="head-title">
+          <span>About Us</span>
+          <p>
+            We provide programming services for website designs and mobile
+            applications
+          </p>
+        </figcaption>
+      </div>
+    </section>
+    <!-- end home -->
+    <hr />
+    <section class="informatic">
+      <div class="container">
+        <div class="text">
+          <p class="title">Home /<span>About</span></p>
+          <h1>
+            I’m <span>Hisham Al-Sayed</span>, a twenty-one-year-old front-end
+            developer Angular - React from Egypt
+          </h1>
+          <p>
+            ​Currently I am in last year of college i work on freelancer
+            websites
+          </p>
+          <a href="/index.html#contact">Contact</a>
+        </div>
+        <div class="image">
+          <img
+            src="images/my_photo_2023-10-20_20-47-18-transformed.png"
+            alt="myphoto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="experince">
+      <div class="container">
+        <div class="text">
+          <h3>experience</h3>
+          <a href="index.html">View more</a>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <p class="year">2021</p>
+            <span>Sample text. Click to select the Text Element.</span>
+          </div>
+          <div class="card card1">
+            <p class="year">2022</p>
+            <span>Sample text. Click to select the Text Element.</span>
+          </div>
+
+          <div class="card">
+            <p class="year">2023</p>
+            <span>Sample text. Click to select the Text Element.</span>
+          </div>
+          <div class="card">
+            <p class="year">2024</p>
+            <span>Sample text. Click to select the Text Element.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="data">
+      <div class="container">
+        <div class="text">
+          <div class="arrow">
+            <h3>My project</h3>
+            <i class="fa-solid fa-angles-down"></i>
+          </div>
+          <div class="info">
+            I have developed and programmed many dozens of websites and
+            projects. Take a look at these projects
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#projects" class="button1">projects</a>
+          <a href="index.html#home" class="button2">view</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- start projects  -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <figcaption class="head-title">
+          <span>projects</span>
+          <p>
+            Voluptatem quibusdam ut ullam perferendis repellat non ut
+            consequuntur est eveniet deleniti fignissimos eos quam
+          </p>
+        </figcaption>
+        <ul class="categories">
+          <a class="active list" data-filter="All">All</a>
+          <a class="list" data-filter="App">App</a>
+          <a class="list" data-filter="Product">Product</a>
+          <a class="list" data-filter="Branding">Branding</a>
+          <a class="list" data-filter="Books">Books</a>
+        </ul>
+        <div class="cards">
+          <div class="card" data-item="App">
+            <div class="image">
+              <img src="images/portfolio/app-1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>APP 1</h3>
+              <a>open</a>
+            </div>
+          </div>
+          <div class="card" data-item="Product">
+            <div class="image">
+              <img src="images/portfolio/product-1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>product 1</h3>
+              <a>open</a>
+            </div>
+          </div>
+
+          <div class="card" data-item="Branding">
+            <div class="image">
+              <img src="images/portfolio/branding-1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>branding 1</h3>
+              <a>open</a>
+            </div>
+          </div>
+
+          <div class="card" data-item="Books">
+            <div class="image">
+              <img src="images/portfolio/books-1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>books 1</h3>
+              <a>open</a>
+            </div>
+          </div>
+
+          <div class="card" data-item="App">
+            <div class="image">
+              <img src="images/portfolio/app-2.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>APP 2</h3>
+              <a>open</a>
+            </div>
+          </div>
+
+          <div class="card" data-item="Product">
+            <div class="image">
+              <img src="images/portfolio/product-2.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>product 2</h3>
+              <a>open</a>
+            </div>
+          </div>
+
+          <div class="card" data-item="Branding">
+            <div class="image">
+              <img src="images/portfolio/branding-2.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>branding 2</h3>
+              <a>open</a>
+            </div>
+          </div>
+
+          <div class="card" data-item="Books">
+            <div class="image">
+              <img src="images/portfolio/books-2.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h3>books 2</h3>
+              <a>open</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end projects -->
+
+    <section class="members">
+      <div class="container">
+        <div class="person">
+          <img src="images/team/team-1.jpg" alt="" />
+          <figcaption>
+            <h2>Youseif</h2>
+            <span>designer</span>
+            <p>
+              The user interface designer discusses with the client and records
+              everything the client needs, then begins the design implementation
+              phase, and each time he presents the design to the client until
+              the design is approved.
+            </p>
+          </figcaption>
+          <a href="index.html#contact">contact</a>
+        </div>
+        <div class="person">
+          <img src="images/team/team-3.jpg" alt="" />
+          <figcaption>
+            <h2>Hisham</h2>
+            <span>developer</span>
+            <p>
+              The programmer takes the design from the designer, then starts
+              thinking about it and discusses with the designer if he wants any
+              modifications. Then they agree on the design, and the developer
+              begins the implementation phase.
+            </p>
+          </figcaption>
+          <a href="index.html#contact">contact</a>
+        </div>
+      </div>
+    </section>
+    <!-- start footer  -->
+    <footer id="footer">
+      <div class="container">
+        <div class="upper">
+          <div class="column">
+            <h3 class="title">Code</h3>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+              nada terra videa magna derita valies darta donna mare fermentum
+              iaculis eu non diam phasellus.
+            </p>
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/hisham.alsaied.31?mibextid=ZbWKwL"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://instagram.com/heshaam_alsyd?igshid=OGQ5ZDc2ODk2ZA=="
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <h4 class="title">Useful Links</h4>
+            <ul class="links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#home">Terms os Services</a></li>
+              <li><a href="#home">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4 class="title">Our Services</h4>
+            <ul class="links">
+              <li><a href="#home">Web Design</a></li>
+              <li><a href="#home">Web Development</a></li>
+              <li><a href="#home">Product Management</a></li>
+              <li><a href="#home">Marketing</a></li>
+              <li><a href="#home">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h4 class="title">Contact Us</h4>
+            <ul>
+              <li>A108 Adam Street</li>
+              <li>New York, NY 535022 <br />United States</li>
+              <br />
+              <li><strong>Phone</strong>: +1 5589 55488 55</li>
+              <li><strong>Email</strong>: info@example.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lower">
+          © Copyright Impact. All Rights Reserved <br />
+          Designed by BootstrapMade
+        </div>
+      </div>
+      <a class="arrow" href="#home">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+    <!-- end footer  -->
+    <script>
+      // change header background
+      window.addEventListener("scroll", () => {
+        let header = document.querySelector("header");
+        const scroll = window.scrollY;
+
+        if (scroll >= 120 && document.body.classList.contains("whitetheme")) {
+          header.style.backgroundColor = "#d7e3ff";
+        } else if (scroll >= 120) {
+          header.style.backgroundColor = "#002f65";
+        } else {
+          header.style.backgroundColor = "";
+        }
+      });
+
+      //   navbar
+      let menus = document.querySelector(".navbar");
+      let menus_btn = document.querySelector(".menu-btn");
+      let close_btn = document.querySelector(".close-btn");
+
+      menus_btn.addEventListener("click", function () {
+        menus.classList.add("active2");
+      });
+
+      close_btn.addEventListener("click", function () {
+        menus.classList.remove("active2");
+      });
+      // dark mode
+      let darkmode = document.querySelector("#icon");
+      let icon = document.querySelector("#icon i ");
+      darkmode.addEventListener("click", function () {
+        document.body.classList.toggle("whitetheme");
+        if (document.body.classList.contains("whitetheme")) {
+          icon.classList.replace("fa-sun", "fa-moon");
+        } else {
+          icon.classList.replace("fa-moon", "fa-sun");
+        }
+      });
+
+      // filter portfolio
+      let list = document.querySelectorAll(".list");
+      let cards = document.querySelectorAll(".projects .card");
+
+      for (let i = 0; i < list.length; i++) {
+        list[i].addEventListener("click", function (e) {
+          for (let j = 0; j < list.length; j++) {
+            list[j].classList.remove("active");
+          }
+          this.classList.add("active");
+
+          // this return to list[i] when you click
+          let dataTarget = this.getAttribute("data-filter");
+          for (let k = 0; k < cards.length; k++) {
+            cards[k].classList.add("hide");
+            // hide all the card
+            if (
+              cards[k].getAttribute("data-item") == dataTarget ||
+              dataTarget == "All"
+            ) {
+              cards[k].classList.remove("hide");
+              // show the target card
+            }
+          }
+        });
+      }
+      // scroll animation
+
+      ScrollReveal({
+        reset: true,
+        distance: "40px",
+        duration: 2000,
+        delay: 300,
+      });
+      ScrollReveal().reveal(".head-title", {
+        origin: "bottom",
+        distance: "50px",
+        delay: 100,
+      });
+      ScrollReveal().reveal(".experince .container .card:nth-child(1)", {
+        delay: 900,
+        origin: "bottom",
+        distance: "200px",
+      });
+      ScrollReveal().reveal(".experince .container .card:nth-child(2)", {
+        delay: 600,
+        origin: "bottom",
+        distance: "200px",
+      });
+      ScrollReveal().reveal(".experince .container .card:nth-child(3)", {
+        delay: 300,
+        origin: "bottom",
+        distance: "200px",
+      });
+      ScrollReveal().reveal(".experince .container .card:nth-child(4)", {
+        delay: 100,
+        origin: "bottom",
+        distance: "200px",
+      });
+    </script>
+    <script src="js/main.js"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </body>
+</html>
